@@ -73,28 +73,6 @@ The frontend will automatically open in your browser at `http://localhost:3000`
 3. Click "Get Another Recipe" if you want a different recipe for the same mood
 4. Click "Back to Moods" to select a different mood
 
-## Project Structure
-
-```
-.
-├── backend/
-│   ├── server.js          # Express server
-│   ├── init-db.js         # Database initialization script
-│   ├── recipes.db         # SQLite database (created after init)
-│   └── package.json       # Backend dependencies
-├── frontend/
-│   ├── public/
-│   │   └── index.html     # HTML template
-│   ├── src/
-│   │   ├── App.js         # Main React component
-│   │   ├── index.js       # React entry point
-│   │   └── index.css      # Tailwind CSS imports
-│   ├── package.json       # Frontend dependencies
-│   ├── tailwind.config.js # Tailwind configuration
-│   └── postcss.config.js  # PostCSS configuration
-└── README.md              # This file
-```
-
 ## API Endpoints
 
 - `GET /api/recipes/:mood` - Get a random recipe for a specific mood
